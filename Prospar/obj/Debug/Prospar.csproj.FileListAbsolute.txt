@@ -10,3 +10,4 @@ C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.pdb
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.Home.resources
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.ExitDialogue.resources
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.LevelSelect.resources
+C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.LevelForm.resources

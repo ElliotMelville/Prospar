@@ -47,9 +47,9 @@ namespace Prospar
             homeMusicPlayer = new SoundPlayer(Properties.Resources.HomeMusic);
             homeMusicPlayer.Load();
 
-            isPlayingIntro = true;
-            tmrIntro.Enabled = true;
-            //StopIntro();
+            //isPlayingIntro = true;
+            //tmrIntro.Enabled = true;
+            StopIntro();
         }
 
         private void tmrIntro_Tick(object sender, EventArgs e)
@@ -104,8 +104,12 @@ namespace Prospar
 
         private void LoadLevelSelect()
         {
-            LevelSelect levelselect = new LevelSelect();
-            levelselect.Show();
+            //make a new game
+            Globals.NewGame();
+            Globals.game.NewLevel();
+            
+            LevelForm level = new LevelForm();
+            level.Show();
         }
 
         private void hbtnStart_Click(object sender, EventArgs e)
