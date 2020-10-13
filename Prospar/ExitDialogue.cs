@@ -40,11 +40,11 @@ namespace Prospar
             {
                 picExiting.Width = 231;
             }
-            if (timePassedSinceExit == 40)
+            if (timePassedSinceExit == 37)
             {
                 picExiting.Width = 261;
             }
-            if (timePassedSinceExit == 55)
+            if (timePassedSinceExit == 47)
             {
                 picExiting.Width = 285;
             }

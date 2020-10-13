@@ -19,12 +19,12 @@ namespace Prospar
         protected override void OnCreateControl()
         {
             base.OnCreateControl();
-            this.Paint += new PaintEventHandler(this.OnPaint);
+            //this.Paint += new PaintEventHandler(this.OnPaint);
         }
 
-        protected void OnPaint(object sender, PaintEventArgs e)
+        /*protected void OnPaint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawString(position.X.ToString() + "-" + position.Y.ToString(), Font, Brushes.Black, new Point(20, 20));
-        }
+        }*/
     }
 }

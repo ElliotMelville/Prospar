@@ -42,11 +42,13 @@ namespace Prospar
 
         protected void Initialise()
         {
+            Random random = new Random();
+
             int x = 1;
             int y = 1;
 
-            visibleCellsWide = 20;
-            visibleCellsHigh = 15;
+            visibleCellsWide = 14;
+            visibleCellsHigh = 11;
             cellsIndex = new GameCell[this.level.GetWidth(), this.level.GetHeight()];
 
             while(y < visibleCellsHigh + cellOverflow)
@@ -54,7 +56,10 @@ namespace Prospar
                 x = 1;
                 while(x < visibleCellsWide + cellOverflow)
                 {
-                    CreateCell(x, y);
+                    if (random.Next(1, 4) == 3)
+                    {
+                        CreateCell(x, y);
+                    }
 
                     x++;
                 }
@@ -72,8 +77,9 @@ namespace Prospar
                 Location = new Point(this.level.cellSize * (x - 1), this.level.cellSize * (y - 1)),
                 position = new Point(x, y),
                 contents = 0,
-                BorderStyle = BorderStyle.FixedSingle
+                Image = Properties.Resources.Walls
             };
+
             cellsIndex[x, y] = cell;
             cells.Add(cell);
             this.Controls.Add(cell);
@@ -83,6 +89,7 @@ namespace Prospar
         {
             foreach(GameCell cell in cells)
             {
+                
                 cell.Left -= amount;
             }
         }

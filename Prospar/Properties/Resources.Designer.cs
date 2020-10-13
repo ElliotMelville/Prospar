@@ -83,16 +83,6 @@ namespace Prospar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CharacterSelectButton {
-            get {
-                object obj = ResourceManager.GetObject("CharacterSelectButton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Chest_Idle {
             get {
                 object obj = ResourceManager.GetObject("Chest_Idle", resourceCulture);
@@ -173,19 +163,9 @@ namespace Prospar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Exiting {
+        internal static System.Drawing.Bitmap ExitButton {
             get {
-                object obj = ResourceManager.GetObject("Exiting", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Exiting1 {
-            get {
-                object obj = ResourceManager.GetObject("Exiting1", resourceCulture);
+                object obj = ResourceManager.GetObject("ExitButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +196,16 @@ namespace Prospar.Properties {
         internal static System.Drawing.Bitmap HelpButton {
             get {
                 object obj = ResourceManager.GetObject("HelpButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HelpButton1 {
+            get {
+                object obj = ResourceManager.GetObject("HelpButton1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -272,9 +262,19 @@ namespace Prospar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ProsparTitle4 {
+        internal static System.Drawing.Bitmap ProsparTitle {
             get {
-                object obj = ResourceManager.GetObject("ProsparTitle4", resourceCulture);
+                object obj = ResourceManager.GetObject("ProsparTitle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ProsparTitle7 {
+            get {
+                object obj = ResourceManager.GetObject("ProsparTitle7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +323,16 @@ namespace Prospar.Properties {
         internal static System.Drawing.Bitmap StartButton {
             get {
                 object obj = ResourceManager.GetObject("StartButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap StartButton1 {
+            get {
+                object obj = ResourceManager.GetObject("StartButton1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,6 +393,16 @@ namespace Prospar.Properties {
         internal static System.Drawing.Bitmap sword_dead_near_6 {
             get {
                 object obj = ResourceManager.GetObject("sword_dead_near_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Walls {
+            get {
+                object obj = ResourceManager.GetObject("Walls", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

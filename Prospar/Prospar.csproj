@@ -256,5 +256,41 @@
   <ItemGroup>
     <None Include="Resources\Exiting2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Walls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProsparTitle10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelpButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
