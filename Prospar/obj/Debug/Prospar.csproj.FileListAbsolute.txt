@@ -1,7 +1,6 @@
 C:\Users\ellio\source\repos\Prospar\Prospar\bin\Debug\Prospar.exe.config
 C:\Users\ellio\source\repos\Prospar\Prospar\bin\Debug\Prospar.exe
 C:\Users\ellio\source\repos\Prospar\Prospar\bin\Debug\Prospar.pdb
-C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.csprojAssemblyReference.cache
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.Properties.Resources.resources
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.csproj.GenerateResource.cache
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.csproj.CoreCompileInputs.cache
@@ -11,3 +10,5 @@ C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.Home.resources
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.ExitDialogue.resources
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.LevelSelect.resources
 C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.LevelForm.resources
+C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.csprojAssemblyReference.cache
+C:\Users\ellio\source\repos\Prospar\Prospar\obj\Debug\Prospar.Properties.Shop.resources

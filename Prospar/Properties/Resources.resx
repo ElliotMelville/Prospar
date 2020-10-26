@@ -148,6 +148,9 @@
   <data name="HelpButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HelpButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="HeroAnimations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeroAnimations.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="chest_open_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chest_open_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,9 +175,6 @@
   <data name="No!" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\No!.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Walls" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Walls.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="StartButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StartButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,8 +184,14 @@
   <data name="Chest_Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chest_Open.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ExitButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExitButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="HomeMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\homemusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Hero-idle-big1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hero-idle-big1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hero_die_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hero-die-big.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,7 +229,10 @@
   <data name="sword_dead_near_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dead_near_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ExitButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SHOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHOP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Walls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Walls.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

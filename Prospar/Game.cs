@@ -18,19 +18,19 @@ namespace Prospar
 
         public void OnScrollingDown()
         {
-
+            this.canvas.ScrollDown(5);
         }
         public void OnScrollingUp()
         {
-
+            this.canvas.ScrollUp(5);
         }
         public void OnScrollingLeft()
         {
-            this.canvas.ScrollLeft(10);
+            this.canvas.ScrollLeft(5);
         }
         public void OnScrollingRight()
         {
-            this.canvas.ScrollRight(10);
+            this.canvas.ScrollRight(5);
         }
 
     }

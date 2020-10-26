@@ -141,6 +141,7 @@
             this.Controls.Add(this.hbtnYes);
             this.Controls.Add(this.picExiting);
             this.Name = "ExitDialogue";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exit";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();

@@ -17,6 +17,7 @@ namespace Prospar
         public ExitDialogue()
         {
             InitializeComponent();
+
             picExiting.Width = 206;
             picExiting.Visible = false;
         }

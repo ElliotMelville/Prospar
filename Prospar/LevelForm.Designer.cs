@@ -30,8 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tmrScroll = new System.Windows.Forms.Timer(this.components);
-            this.gameCanvas1 = new Prospar.GameCanvas();
-            ((System.ComponentModel.ISupportInitialize)(this.gameCanvas1)).BeginInit();
+            this.tmrMovement = new System.Windows.Forms.Timer(this.components);
+            this.picAvatar = new Prospar.Properties.AnimatedImage();
+            this.gameCanvas = new Prospar.GameCanvas();
+            this.panel1 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gameCanvas)).BeginInit();
             this.SuspendLayout();
             // 
             // tmrScroll
@@ -39,34 +43,63 @@
             this.tmrScroll.Interval = 10;
             this.tmrScroll.Tick += new System.EventHandler(this.tmrScroll_Tick);
             // 
-            // gameCanvas1
+            // tmrMovement
             // 
-            this.gameCanvas1.Location = new System.Drawing.Point(0, 0);
-            this.gameCanvas1.Name = "gameCanvas1";
-            this.gameCanvas1.Size = new System.Drawing.Size(1000, 750);
-            this.gameCanvas1.TabIndex = 0;
-            this.gameCanvas1.TabStop = false;
+            this.tmrMovement.Enabled = true;
+            this.tmrMovement.Interval = 16;
+            this.tmrMovement.Tick += new System.EventHandler(this.tmrMovement_Tick);
+            // 
+            // picAvatar
+            // 
+            this.picAvatar.BackColor = System.Drawing.Color.Transparent;
+            this.picAvatar.Location = new System.Drawing.Point(462, 287);
+            this.picAvatar.Name = "picAvatar";
+            this.picAvatar.Size = new System.Drawing.Size(130, 100);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.picAvatar.TabIndex = 1;
+            this.picAvatar.TabStop = false;
+            // 
+            // gameCanvas
+            // 
+            this.gameCanvas.Location = new System.Drawing.Point(0, 0);
+            this.gameCanvas.Name = "gameCanvas";
+            this.gameCanvas.Size = new System.Drawing.Size(1000, 750);
+            this.gameCanvas.TabIndex = 0;
+            this.gameCanvas.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(158, 26);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(700, 600);
+            this.panel1.TabIndex = 2;
             // 
             // LevelForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 750);
-            this.Controls.Add(this.gameCanvas1);
+            this.ClientSize = new System.Drawing.Size(1000, 749);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.picAvatar);
+            this.Controls.Add(this.gameCanvas);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LevelForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LevelForm";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LevelForm_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.LevelForm_KeyUp);
-            ((System.ComponentModel.ISupportInitialize)(this.gameCanvas1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gameCanvas)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private GameCanvas gameCanvas1;
+        private GameCanvas gameCanvas;
         private System.Windows.Forms.Timer tmrScroll;
+        private System.Windows.Forms.Timer tmrMovement;
+        private Properties.AnimatedImage picAvatar;
+        private System.Windows.Forms.Panel panel1;
     }
 }

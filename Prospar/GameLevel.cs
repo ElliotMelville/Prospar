@@ -13,7 +13,7 @@ namespace Prospar
 {
     abstract class GameLevel
     {
-        public int cellSize = 64;
+        public int cellSize = 96;
 
         abstract public int GetWidth();
         abstract public int GetHeight();

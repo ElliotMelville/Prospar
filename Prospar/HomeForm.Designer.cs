@@ -31,27 +31,70 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.tmrIntro = new System.Windows.Forms.Timer(this.components);
-            this.floorModelChest1 = new Prospar.Properties.Chest();
-            this.floorModelChest2 = new Prospar.Properties.Chest();
-            this.picFloorModelAvatar = new System.Windows.Forms.PictureBox();
-            this.hbtnExit = new Prospar.HoverButton();
-            this.hbtnHelp = new Prospar.HoverButton();
-            this.hbtnStart = new Prospar.HoverButton();
+            this.picAvatar = new System.Windows.Forms.PictureBox();
             this.picTitleScreen = new System.Windows.Forms.PictureBox();
             this.picSerniGames = new System.Windows.Forms.PictureBox();
             this.picPresents = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picFloorModelAvatar)).BeginInit();
+            this.floorModelChest1 = new Prospar.Properties.Chest();
+            this.floorModelChest2 = new Prospar.Properties.Chest();
+            this.hbtnExit = new Prospar.HoverButton();
+            this.hbtnHelp = new Prospar.HoverButton();
+            this.hbtnStart = new Prospar.HoverButton();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTitleScreen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSerniGames)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPresents)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest2)).BeginInit();
             this.SuspendLayout();
             // 
             // tmrIntro
             // 
             this.tmrIntro.Interval = 10;
             this.tmrIntro.Tick += new System.EventHandler(this.tmrIntro_Tick);
+            // 
+            // picAvatar
+            // 
+            this.picAvatar.BackColor = System.Drawing.Color.Transparent;
+            this.picAvatar.Image = global::Prospar.Properties.Resources.Hero_idle_big;
+            this.picAvatar.Location = new System.Drawing.Point(432, 69);
+            this.picAvatar.Name = "picAvatar";
+            this.picAvatar.Size = new System.Drawing.Size(150, 134);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picAvatar.TabIndex = 3;
+            this.picAvatar.TabStop = false;
+            // 
+            // picTitleScreen
+            // 
+            this.picTitleScreen.BackColor = System.Drawing.Color.Transparent;
+            this.picTitleScreen.Image = global::Prospar.Properties.Resources.ProsparTitle;
+            this.picTitleScreen.Location = new System.Drawing.Point(0, 0);
+            this.picTitleScreen.Name = "picTitleScreen";
+            this.picTitleScreen.Size = new System.Drawing.Size(1000, 750);
+            this.picTitleScreen.TabIndex = 0;
+            this.picTitleScreen.TabStop = false;
+            // 
+            // picSerniGames
+            // 
+            this.picSerniGames.BackColor = System.Drawing.Color.Transparent;
+            this.picSerniGames.Image = global::Prospar.Properties.Resources.SerniGames;
+            this.picSerniGames.Location = new System.Drawing.Point(12, 12);
+            this.picSerniGames.Name = "picSerniGames";
+            this.picSerniGames.Size = new System.Drawing.Size(600, 459);
+            this.picSerniGames.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picSerniGames.TabIndex = 7;
+            this.picSerniGames.TabStop = false;
+            // 
+            // picPresents
+            // 
+            this.picPresents.BackColor = System.Drawing.Color.Transparent;
+            this.picPresents.Image = global::Prospar.Properties.Resources._Presents_;
+            this.picPresents.Location = new System.Drawing.Point(112, 449);
+            this.picPresents.Name = "picPresents";
+            this.picPresents.Size = new System.Drawing.Size(355, 245);
+            this.picPresents.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPresents.TabIndex = 8;
+            this.picPresents.TabStop = false;
             // 
             // floorModelChest1
             // 
@@ -72,16 +115,6 @@
             this.floorModelChest2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.floorModelChest2.TabIndex = 9;
             this.floorModelChest2.TabStop = false;
-            // 
-            // picFloorModelAvatar
-            // 
-            this.picFloorModelAvatar.Image = global::Prospar.Properties.Resources.Hero_idle_big;
-            this.picFloorModelAvatar.Location = new System.Drawing.Point(432, 69);
-            this.picFloorModelAvatar.Name = "picFloorModelAvatar";
-            this.picFloorModelAvatar.Size = new System.Drawing.Size(150, 134);
-            this.picFloorModelAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picFloorModelAvatar.TabIndex = 3;
-            this.picFloorModelAvatar.TabStop = false;
             // 
             // hbtnExit
             // 
@@ -141,38 +174,6 @@
             this.hbtnStart.UseVisualStyleBackColor = false;
             this.hbtnStart.Click += new System.EventHandler(this.hbtnStart_Click);
             // 
-            // picTitleScreen
-            // 
-            this.picTitleScreen.BackColor = System.Drawing.Color.Transparent;
-            this.picTitleScreen.Image = global::Prospar.Properties.Resources.ProsparTitle;
-            this.picTitleScreen.Location = new System.Drawing.Point(0, 0);
-            this.picTitleScreen.Name = "picTitleScreen";
-            this.picTitleScreen.Size = new System.Drawing.Size(1000, 750);
-            this.picTitleScreen.TabIndex = 0;
-            this.picTitleScreen.TabStop = false;
-            // 
-            // picSerniGames
-            // 
-            this.picSerniGames.BackColor = System.Drawing.Color.Transparent;
-            this.picSerniGames.Image = global::Prospar.Properties.Resources.SerniGames;
-            this.picSerniGames.Location = new System.Drawing.Point(12, 12);
-            this.picSerniGames.Name = "picSerniGames";
-            this.picSerniGames.Size = new System.Drawing.Size(600, 459);
-            this.picSerniGames.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picSerniGames.TabIndex = 7;
-            this.picSerniGames.TabStop = false;
-            // 
-            // picPresents
-            // 
-            this.picPresents.BackColor = System.Drawing.Color.Transparent;
-            this.picPresents.Image = global::Prospar.Properties.Resources._Presents_;
-            this.picPresents.Location = new System.Drawing.Point(112, 449);
-            this.picPresents.Name = "picPresents";
-            this.picPresents.Size = new System.Drawing.Size(355, 245);
-            this.picPresents.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPresents.TabIndex = 8;
-            this.picPresents.TabStop = false;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,7 +181,7 @@
             this.ClientSize = new System.Drawing.Size(1000, 749);
             this.Controls.Add(this.floorModelChest1);
             this.Controls.Add(this.floorModelChest2);
-            this.Controls.Add(this.picFloorModelAvatar);
+            this.Controls.Add(this.picAvatar);
             this.Controls.Add(this.hbtnExit);
             this.Controls.Add(this.hbtnHelp);
             this.Controls.Add(this.hbtnStart);
@@ -188,14 +189,15 @@
             this.Controls.Add(this.picSerniGames);
             this.Controls.Add(this.picPresents);
             this.Name = "Home";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prospar - Home";
             this.Load += new System.EventHandler(this.Home_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picFloorModelAvatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTitleScreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSerniGames)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPresents)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.floorModelChest2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -205,7 +207,7 @@
         private HoverButton hbtnHelp;
         private System.Windows.Forms.PictureBox picTitleScreen;
         private HoverButton hbtnExit;
-        private System.Windows.Forms.PictureBox picFloorModelAvatar;
+        private System.Windows.Forms.PictureBox picAvatar;
         private System.Windows.Forms.Timer tmrIntro;
         private System.Windows.Forms.PictureBox picSerniGames;
         private System.Windows.Forms.PictureBox picPresents;

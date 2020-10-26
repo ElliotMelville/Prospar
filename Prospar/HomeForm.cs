@@ -32,7 +32,7 @@ namespace Prospar
             hbtnHelp.Visible = false;
             hbtnStart.Visible = false;
             picTitleScreen.Visible = false;
-            picFloorModelAvatar.Visible = false;
+            picAvatar.Visible = false;
             floorModelChest1.Visible = false;
             floorModelChest2.Visible = false;
 
@@ -47,9 +47,9 @@ namespace Prospar
             homeMusicPlayer = new SoundPlayer(Properties.Resources.HomeMusic);
             homeMusicPlayer.Load();
 
-            isPlayingIntro = true;
-            tmrIntro.Enabled = true;
-            //StopIntro();
+            //isPlayingIntro = true;
+            //tmrIntro.Enabled = true;
+            StopIntro();
         }
 
         private void tmrIntro_Tick(object sender, EventArgs e)
@@ -93,13 +93,13 @@ namespace Prospar
             hbtnHelp.Visible = true;
             hbtnStart.Visible = true;
             picTitleScreen.Visible = true;
-            picFloorModelAvatar.Visible = true;
+            picAvatar.Visible = true;
             floorModelChest1.Visible = true;
             floorModelChest2.Visible = true;
 
             floorModelChest1.BringToFront();
             floorModelChest2.BringToFront();
-            picFloorModelAvatar.BringToFront();
+            picAvatar.BringToFront();
         }
 
         private void LoadLevelSelect()
@@ -107,10 +107,10 @@ namespace Prospar
             //make a new game
             Globals.NewGame();
             Globals.game.NewLevel();
-            
+
             LevelForm level = new LevelForm();
-            level.Show();
-            //this.Controls.Add(level);
+            Program.Next = level;
+            this.Close();
         }
 
         private void hbtnStart_Click(object sender, EventArgs e)

@@ -47,8 +47,8 @@ namespace Prospar
             int x = 1;
             int y = 1;
 
-            visibleCellsWide = 14;
-            visibleCellsHigh = 11;
+            visibleCellsWide = 11;
+            visibleCellsHigh = 8;
             cellsIndex = new GameCell[this.level.GetWidth(), this.level.GetHeight()];
 
             while(y < visibleCellsHigh + cellOverflow)
@@ -77,6 +77,7 @@ namespace Prospar
                 Location = new Point(this.level.cellSize * (x - 1), this.level.cellSize * (y - 1)),
                 position = new Point(x, y),
                 contents = 0,
+                
                 Image = Properties.Resources.Walls
             };
 
@@ -98,6 +99,20 @@ namespace Prospar
             foreach (GameCell cell in cells)
             {
                 cell.Left += amount;
+            }
+        }
+        public void ScrollUp(int amount)
+        {
+            foreach (GameCell cell in cells)
+            {
+                cell.Top += amount;
+            }
+        }
+        public void ScrollDown(int amount)
+        {
+            foreach (GameCell cell in cells)
+            {
+                cell.Top -= amount;
             }
         }
     }

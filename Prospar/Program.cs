@@ -8,6 +8,7 @@ namespace Prospar
 {
     static class Program
     {
+        public static Form Next;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,14 @@ namespace Prospar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+
+            Next = new Home();
+            while (Next != null)
+            {
+                var form = Next;
+                Next = null;
+                Application.Run(form);
+            }
         }
     }
 }

@@ -233,9 +233,29 @@ namespace Prospar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hero_idle_big1 {
+            get {
+                object obj = ResourceManager.GetObject("Hero-idle-big1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hero_walk_big {
             get {
                 object obj = ResourceManager.GetObject("Hero-walk-big", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HeroAnimations {
+            get {
+                object obj = ResourceManager.GetObject("HeroAnimations", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,6 +323,16 @@ namespace Prospar.Properties {
         internal static System.Drawing.Bitmap SerniGames {
             get {
                 object obj = ResourceManager.GetObject("SerniGames", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SHOP {
+            get {
+                object obj = ResourceManager.GetObject("SHOP", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
