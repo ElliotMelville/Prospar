@@ -73,6 +73,36 @@ namespace Prospar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Achievement_affordable {
+            get {
+                object obj = ResourceManager.GetObject("Achievement_affordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Achievement_selected {
+            get {
+                object obj = ResourceManager.GetObject("Achievement_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Achievement_unaffordable {
+            get {
+                object obj = ResourceManager.GetObject("Achievement_unaffordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap attack1_1 {
             get {
                 object obj = ResourceManager.GetObject("attack1_1", resourceCulture);
@@ -153,6 +183,36 @@ namespace Prospar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EdhelFeather_affordable {
+            get {
+                object obj = ResourceManager.GetObject("EdhelFeather_affordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EdhelFeather_selected {
+            get {
+                object obj = ResourceManager.GetObject("EdhelFeather_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EdhelFeather_unaffordable {
+            get {
+                object obj = ResourceManager.GetObject("EdhelFeather_unaffordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Exit {
             get {
                 object obj = ResourceManager.GetObject("Exit", resourceCulture);
@@ -186,6 +246,36 @@ namespace Prospar.Properties {
         internal static System.Drawing.Bitmap ExitQuestion {
             get {
                 object obj = ResourceManager.GetObject("ExitQuestion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Grindstone_affordable {
+            get {
+                object obj = ResourceManager.GetObject("Grindstone_affordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Grindstone_selected {
+            get {
+                object obj = ResourceManager.GetObject("Grindstone_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Grindstone_unaffordable {
+            get {
+                object obj = ResourceManager.GetObject("Grindstone_unaffordable", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +356,96 @@ namespace Prospar.Properties {
         internal static System.IO.UnmanagedMemoryStream HomeMusic {
             get {
                 return ResourceManager.GetStream("HomeMusic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KingsInterest_affordable {
+            get {
+                object obj = ResourceManager.GetObject("KingsInterest_affordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KingsInterest_selected {
+            get {
+                object obj = ResourceManager.GetObject("KingsInterest_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KingsInterest_unaffordable {
+            get {
+                object obj = ResourceManager.GetObject("KingsInterest_unaffordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LuckyPendant_affordable {
+            get {
+                object obj = ResourceManager.GetObject("LuckyPendant_affordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LuckyPendant_selected {
+            get {
+                object obj = ResourceManager.GetObject("LuckyPendant_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LuckyPendant_unaffordable {
+            get {
+                object obj = ResourceManager.GetObject("LuckyPendant_unaffordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MirtincBoots_affordable {
+            get {
+                object obj = ResourceManager.GetObject("MirtincBoots_affordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MirtincBoots_selected {
+            get {
+                object obj = ResourceManager.GetObject("MirtincBoots_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MirtincBoots_unaffordable {
+            get {
+                object obj = ResourceManager.GetObject("MirtincBoots_unaffordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -423,6 +603,36 @@ namespace Prospar.Properties {
         internal static System.Drawing.Bitmap sword_dead_near_6 {
             get {
                 object obj = ResourceManager.GetObject("sword_dead_near_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TravellingMerchant_affordable {
+            get {
+                object obj = ResourceManager.GetObject("TravellingMerchant_affordable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TravellingMerchant_selected {
+            get {
+                object obj = ResourceManager.GetObject("TravellingMerchant_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TravellingMerchant_unaffordable {
+            get {
+                object obj = ResourceManager.GetObject("TravellingMerchant_unaffordable", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

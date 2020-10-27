@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using Prospar.Properties;
 
 namespace Prospar
 {
@@ -123,6 +124,12 @@ namespace Prospar
         private void hbtnExit_Click_1(object sender, EventArgs e)
         {
             ExitDialogue form = new ExitDialogue();
+            form.Show();
+        }
+
+        private void hbtnHelp_Click(object sender, EventArgs e)
+        {
+            Shop form = new Shop();
             form.Show();
         }
     }

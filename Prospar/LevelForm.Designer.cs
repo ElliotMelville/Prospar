@@ -33,7 +33,6 @@
             this.tmrMovement = new System.Windows.Forms.Timer(this.components);
             this.picAvatar = new Prospar.Properties.AnimatedImage();
             this.gameCanvas = new Prospar.GameCanvas();
-            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gameCanvas)).BeginInit();
             this.SuspendLayout();
@@ -67,19 +66,11 @@
             this.gameCanvas.TabIndex = 0;
             this.gameCanvas.TabStop = false;
             // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(158, 26);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(700, 600);
-            this.panel1.TabIndex = 2;
-            // 
             // LevelForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 749);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.picAvatar);
             this.Controls.Add(this.gameCanvas);
             this.DoubleBuffered = true;
@@ -100,6 +91,5 @@
         private System.Windows.Forms.Timer tmrScroll;
         private System.Windows.Forms.Timer tmrMovement;
         private Properties.AnimatedImage picAvatar;
-        private System.Windows.Forms.Panel panel1;
     }
 }

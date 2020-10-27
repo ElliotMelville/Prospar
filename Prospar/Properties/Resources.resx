@@ -235,4 +235,67 @@
   <data name="Walls" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Walls.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Achievement_affordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Achievement_affordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Achievement_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Achievement_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Achievement_unaffordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Achievement_unaffordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdhelFeather_affordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EdhelFeather_affordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdhelFeather_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EdhelFeather_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdhelFeather_unaffordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EdhelFeather_unaffordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grindstone_affordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grindstone_affordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grindstone_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grindstone_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grindstone_unaffordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grindstone_unaffordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KingsInterest_affordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KingsInterest_affordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KingsInterest_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KingsInterest_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KingsInterest_unaffordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KingsInterest_unaffordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LuckyPendant_affordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LuckyPendant_affordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LuckyPendant_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LuckyPendant_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LuckyPendant_unaffordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LuckyPendant_unaffordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MirtincBoots_affordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MirtincBoots_affordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MirtincBoots_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MirtincBoots_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MirtincBoots_unaffordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MirtincBoots_unaffordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TravellingMerchant_affordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TravellingMerchant_affordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TravellingMerchant_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TravellingMerchant_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TravellingMerchant_unaffordable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TravellingMerchant_unaffordable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

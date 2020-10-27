@@ -96,6 +96,7 @@
     <Compile Include="Properties\Shop.Designer.cs">
       <DependentUpon>Shop.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\ShopItem.cs" />
     <EmbeddedResource Include="ExitDialogue.resx">
       <DependentUpon>ExitDialogue.cs</DependentUpon>
     </EmbeddedResource>
@@ -313,6 +314,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Walls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Achievement_affordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Achievement_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Achievement_unaffordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EdhelFeather_affordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EdhelFeather_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EdhelFeather_unaffordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grindstone_affordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grindstone_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grindstone_unaffordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KingsInterest_affordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KingsInterest_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KingsInterest_unaffordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuckyPendant_affordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuckyPendant_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuckyPendant_unaffordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MirtincBoots_affordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MirtincBoots_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MirtincBoots_unaffordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TravellingMerchant_affordable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TravellingMerchant_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TravellingMerchant_unaffordable.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

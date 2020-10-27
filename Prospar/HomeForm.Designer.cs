@@ -152,6 +152,7 @@
             this.hbtnHelp.Speed = 16;
             this.hbtnHelp.TabIndex = 1;
             this.hbtnHelp.UseVisualStyleBackColor = false;
+            this.hbtnHelp.Click += new System.EventHandler(this.hbtnHelp_Click);
             // 
             // hbtnStart
             // 

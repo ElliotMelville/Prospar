@@ -39,6 +39,9 @@ namespace Prospar.Properties
         protected override void OnCreateControl()
         {
             base.OnCreateControl();
+
+            this.ChangeState(HeroState.Idle);
+
             if (this.DesignMode)
             {
                 return;
@@ -48,8 +51,6 @@ namespace Prospar.Properties
             Enabled = false;
 
             InitialiseTimer();
-
-            this.ChangeState(Properties.HeroState.Idle);
         }
 
         private void InitialiseTimer()
